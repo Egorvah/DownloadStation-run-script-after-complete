@@ -25,10 +25,11 @@ After line '# Start your algorithm' add you code
 For example uses send message to telegram bot
 
 
-# Add schedule task on DMS
+# Add schedule task on DSM
 ### Open 'Control Panel' > 'Task Scheduler'
 ### Select 'Create' > 'Scheduled Task' > 'User-defined script'
-### Enter task name
+### Enter task name, select root user
 ### Set Schedule time (you can set every minute)
 ### Set 'bash {path to your script}' to User-defined script field
+### Save task
 ### Done!
